@@ -103,6 +103,8 @@ Activate your configuration by linking to the config file from Nginx’s sites-e
 Next, to confirm all configuration has been OK so far, run the command below:
 
 <sudo nginx -t>
+
+To  disable default Nginx host that is currently configured to listen on port 80, run this command:
   
   
 
