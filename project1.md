@@ -1,5 +1,5 @@
  **DEPLOYING WEB SOLUTION USING LAMP STACK**
-``
+
 This project explains steps for implementing LAMP stack on AWS and Azure Cloud Environment.
 
 It is assumed that you have an existing Microsoft Azure Subscription or AWS Subscription. If not, you can open a Free Tier account on both platforms.
