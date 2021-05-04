@@ -135,6 +135,9 @@ To access this page, simple type this address in your url:
 
 The result of this should show you your PHP server configuration details. If it does, it means this has been configured correctly.
 
+![image](https://user-images.githubusercontent.com/83290893/117016069-40895980-acea-11eb-8904-09cd0d9f24b6.png)
+
+
 
 
 
