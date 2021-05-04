@@ -41,7 +41,7 @@ Once, you are done. You can test what you have done using the command below: sud
 
 If your setup was fine, you should get the screen above. To exit the environment use the command below: mysql> exit
 
-Step 4: Installing PHP
+Step 3: Installing PHP
 
 Now that you have install the NGINX for hosting the website, the MySQL as the relational database to store your data. You need to setup PHP to handle dynamic content displayed to the Users.
 
@@ -113,6 +113,32 @@ Reload the Webserver using the command below:
 <sudo systemctl reload nginx>
 
 Then, you can browse the page once again on your browser via the public IPv4 address.
+
+<http://<Public-IP-Address>:80>
+
+Step 5: Testing PHP with NGINX
+
+Please note that at this stage the LEMP Stack has been successfully installed. We just want to test the configuration we have done so far.
+
+ Open a new file called info.php within your document root in your text editor:
+
+ <nano /var/www/projectLEMP/info.php>
+
+ Enter this simple line of code and save.
+
+ <?php
+phpinfo();
+
+To access this page, simple type this address in your url:
+
+<http://`server_domain_or_IP`/info.php>
+
+The result of this should show you your PHP server configuration details. If it does, it means this has been configured correctly.
+
+
+
+
+
   
   
 
