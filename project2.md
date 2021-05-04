@@ -105,9 +105,16 @@ Next, to confirm all configuration has been OK so far, run the command below:
 <sudo nginx -t>
 
 To  disable default Nginx host that is currently configured to listen on port 80, run this command:
-  
-  
 
+<sudo unlink /etc/nginx/sites-enabled/default>
+
+Reload the Webserver using the command below:
+
+<sudo systemctl reload nginx>
+
+Then, you can browse the page once again on your browser via the public IPv4 address.
+  
+  
 
 
 
