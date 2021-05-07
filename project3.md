@@ -128,11 +128,31 @@ Update the content of the file with the Database connection string. In my case:
 
 DB = 'mongodb+srv://OlanDB:Jay11xxxx@olancloud.nyb23.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
+Open the vim index.js file and update the content with the code below:
 
+![image](https://user-images.githubusercontent.com/83290893/117507803-772bd200-af7f-11eb-8d0f-abbf140bf689.png)
+![image](https://user-images.githubusercontent.com/83290893/117507831-83b02a80-af7f-11eb-87f5-0c985e828284.png)
 
+Next you can start the server with the command: node index.js
 
+![image](https://user-images.githubusercontent.com/83290893/117507943-afcbab80-af7f-11eb-924f-80fde32e2ec4.png)
 
+STEP 8:
 
+Testing the Backend Code 
+
+Install Postman. You can download and use the free version.
+
+create a POST request to the API - http://3.23.129.129:5000/api/todos
+Add Content-Type - application/json
+
+create a GET request to the API - http://3.23.129.129:5000/api/todos
+
+create a DELETE request to the API - http://3.23.129.129:5000/api/todos
+
+STEP 9:
+
+Creation of the FrontEnd
 
 
 
