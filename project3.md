@@ -154,6 +154,86 @@ STEP 9:
 
 Creation of the FrontEnd
 
+On you Project(Todo) directory, run the following commands:
+
+ npx create-react-app client
+ 
+ npm install concurrently --save-dev
+ 
+ npm install nodemon --save-dev
+
+Next, open the package.json file in the pwd and update the block content of the file as shown below:
+
+![image](https://user-images.githubusercontent.com/83290893/117508739-fcfc4d00-af80-11eb-9f0c-a49d0c80bbda.png)
+
+Configure the package.json file as shown below:
+
+Change the Directory - cd client
+
+Open the file and update the content - vi package.json
+
+Add the line below:
+
+"proxy": "http://localhost:5000"
+
+To open and start running the application server use: npm run dev
+
+You will observe the application is now running on port 3000. Hence, you need to create an inbound rule to allow the application to be accessed externally.
+
+STEP 10:
+
+Creation of the REACT Component. Start by running the following commands:
+
+cd src
+
+mkdir components
+
+cd components
+
+touch Input.js ListTodo.js Todo.js
+
+vi Input.js
+
+Update the content of the file with the code below:
+
+![image](https://user-images.githubusercontent.com/83290893/117509610-734d7f00-af82-11eb-829e-a0835a57f468.png)
+![image](https://user-images.githubusercontent.com/83290893/117509638-806a6e00-af82-11eb-9d2b-6f99a2e7d532.png)
+
+Once, that is completed. navigate to the src folder.
+
+Run: npm install axios - To install the Axios
+
+cd src/components
+
+vi ListTodo.js - Update the content of the file with the code below:
+
+![image](https://user-images.githubusercontent.com/83290893/117509863-e35c0500-af82-11eb-9b3d-d3f802724a63.png)
+
+vi Todo.js -  Update the content of the file with the code below:
+
+![image](https://user-images.githubusercontent.com/83290893/117509970-1d2d0b80-af83-11eb-8898-292c994689df.png)
+![image](https://user-images.githubusercontent.com/83290893/117510032-3a61da00-af83-11eb-8d11-1db4a235bd85.png)
+
+Next, run the commmand below:
+
+cd ..
+vi App.js -  Update the content of the file with the code below:
+
+![image](https://user-images.githubusercontent.com/83290893/117510193-8c0a6480-af83-11eb-983e-0cc10b70a717.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
