@@ -218,8 +218,20 @@ Next, run the commmand below:
 
 cd ..
 vi App.js -  Update the content of the file with the code below:
-
 ![image](https://user-images.githubusercontent.com/83290893/117510193-8c0a6480-af83-11eb-983e-0cc10b70a717.png)
+
+vi App.css -  Update the content of the file with the code below:
+![image](https://user-images.githubusercontent.com/83290893/117510379-e1df0c80-af83-11eb-97fa-46e738594ce7.png)
+![image](https://user-images.githubusercontent.com/83290893/117510414-f1f6ec00-af83-11eb-8dc0-d995f399e022.png)
+![image](https://user-images.githubusercontent.com/83290893/117510477-0a670680-af84-11eb-97d7-ca31903d7983.png)
+
+vim index.css - Update the content of the file with the code below:
+![image](https://user-images.githubusercontent.com/83290893/117510551-2ec2e300-af84-11eb-9cca-645bf17a7ad7.png)
+
+Finally, run this command from the Todo Project Directory: npm run dev
+
+Output:
+![image](https://user-images.githubusercontent.com/83290893/117510753-85302180-af84-11eb-8c7b-087ef00396cd.png)
 
 
 
